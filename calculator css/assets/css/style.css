@@ -1,0 +1,74 @@
+body {
+  background-color: #d6d6d6;
+}
+
+body .calculator {
+  margin-top: 50px;
+  height: 450px;
+  background-color: #d6d6d6;
+  box-shadow: 5px 5px 10px 1px #c7c2bf, -5px -5px 10px 1px #eeee;
+  border-radius: 9px;
+  width: 300px;
+}
+
+body .calculator .calc-monitor {
+  margin-top: 25px;
+  height: 50px;
+  background-color: #d6d6d6;
+  box-shadow: 4px 4px 10px 1px #c7c2bf inset, -9px -9px 10px #eeee inset;
+}
+
+body .calculator .calc-monitor .result {
+  margin-top: 15px;
+  margin-right: 15px;
+  text-align: right;
+}
+
+body .calculator .calc-btns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+body .calculator .calc-btns .btns {
+  border-radius: 9px;
+  margin: 6px;
+  height: 50px;
+  border: 0px solid;
+  box-shadow: 5px 5px 10px 1px #c7c2bf, -5px -5px 10px 1px #eeee;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+body .calculator .calc-btns .numbers {
+  background-color: #d6d6d6;
+  transition: all 0.3s;
+}
+
+body .calculator .calc-btns .numbers:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+body .calculator .calc-btns .symbols {
+  background-color: black;
+  color: #eeee;
+  transition: all 0.3s;
+}
+
+body .calculator .calc-btns .symbols:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+body .calculator .calc-btns .delete {
+  background-color: red;
+  color: #eeee;
+  transition: all 0.3s;
+}
+
+body .calculator .calc-btns .delete:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+/*# sourceMappingURL=style.css.map */
